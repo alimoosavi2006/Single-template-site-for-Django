@@ -3,7 +3,6 @@ from .views import *
 from django.conf import settings
 from django.conf.urls.static import static
 urlpatterns = [
-    path("", home_view),
-    path("index/",home_page),
+    path("",home_page),
     
 ]
